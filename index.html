@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>六十电影志 | 60电影网 · 专注华语与亚洲电影的评论、资讯与幕后访谈</title>
+<meta name="description" content="六十电影志（60电影网）是面向影迷的深度电影内容平台，每日更新院线与流媒体新片口碑、经典修复影片赏析、导演与编剧幕后访谈、电影节动态及观影指南。在这里读懂每一部值得被看见的电影。">
+<meta name="keywords" content="六十电影志,60电影网,电影评论,华语电影,亚洲电影,新片推荐,经典电影,导演访谈,电影节,观影指南,影评专栏,独立电影,修复版电影,电影资讯">
+<meta name="author" content="六十电影志编辑部">
+<meta name="copyright" content="Copyright © 六十电影志 60电影网. All Rights Reserved.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<link rel="canonical" href="https://60dianyingwang-app.github.io/">
+<link rel="alternate" type="application/rss+xml" title="六十电影志 RSS" href="#">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="六十电影志 · 60电影网">
+<meta property="og:title" content="六十电影志 | 60电影网 · 专注华语与亚洲电影的评论、资讯与幕后访谈">
+<meta property="og:description" content="每日更新院线与流媒体新片口碑、经典修复影片赏析、导演与编剧幕后访谈、电影节动态及观影指南。">
+<meta property="og:url" content="https://60dianyingwang-app.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="六十电影志 | 60电影网 · 专注华语与亚洲电影的评论、资讯与幕后访谈">
+<meta name="twitter:description" content="每日更新院线与流媒体新片口碑、经典修复影片赏析、导演与编剧幕后访谈、电影节动态及观影指南。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "六十电影志",
+  "alternateName": "60电影网",
+  "url": "https://60dianyingwang-app.github.io/",
+  "description": "面向影迷的深度电影内容平台，提供华语与亚洲电影的评论、资讯、幕后访谈与观影指南。",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://60dianyingwang-app.github.io/#search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "六十电影志",
+  "url": "https://60dianyingwang-app.github.io/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://60dianyingwang-app.github.io/#logo"
+  },
+  "sameAs": ["#"]
+}
+</script>
+<style>
+:root{
+  --paper:#f4f1ea;
+  --paper-2:#ece7dc;
+  --ink:#1d1c1a;
+  --ink-2:#4a4640;
+  --ink-3:#7c766c;
+  --accent:#b3261e;
+  --accent-2:#d4621a;
+  --gold:#a8843c;
+  --line:rgba(29,28,26,.12);
+  --shadow:0 2px 14px rgba(29,28,26,.08);
+  --serif:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,"Microsoft YaHei",serif;
+  --sans:"PingFang SC","Helvetica Neue","Microsoft YaHei",-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(168,132,60,.10), transparent 42%),
+    radial-gradient(circle at 88% 92%, rgba(179,38,30,.07), transparent 46%);
+  background-attachment:fixed;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+.container{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ===== 报头 ===== */
+.masthead{background:var(--ink);color:#f0ece4;border-bottom:4px double var(--gold);position:sticky;top:0;z-index:50}
+.masthead-top{padding:14px 0;display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(240,236,228,.14)}
+.masthead-meta{font-size:12px;color:#b9b2a6;letter-spacing:.04em;display:flex;gap:18px;align-items:center}
+.masthead-meta span{display:inline-flex;align-items:center;gap:6px}
+.brandmark{display:flex;align-items:baseline;gap:10px}
+.brandmark strong{font-family:var(--serif);font-size:22px;font-weight:700;letter-spacing:.16em;color:#f7f3ec}
+.brandmark em{font-style:normal;font-size:11px;color:var(--gold);letter-spacing:.3em;text-transform:uppercase;border-left:1px solid rgba(168,132,60,.5);padding-left:10px}
+.masthead-actions{display:flex;gap:8px}
+.btn-ghost{color:#d8d2c7;border:1px solid rgba(216,210,199,.35);padding:6px 13px;font-size:13px;border-radius:2px;transition:.25s}
+.btn-ghost:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* ===== 导航 ===== */
+.nav-wrap{background:rgba(240,236,228,.03)}
+.nav{display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{
+  flex:none;padding:13px 17px;font-size:15px;color:#cfc8bd;letter-spacing:.06em;
+  border-bottom:2px solid transparent;transition:.2s;white-space:nowrap
+}
+.nav a:hover,.nav a.is-active{color:#fff;border-bottom-color:var(--gold)}
+
+/* ===== 栏目题花 ===== */
+.kicker{display:flex;align-items:baseline;gap:14px;margin:0 0 22px;border-bottom:1px solid var(--line);padding-bottom:10px}
+.kicker b{font-family:var(--serif);font-size:24px;font-weight:700;letter-spacing:.1em}
+.kicker i{font-style:normal;font-size:12px;color:var(--ink-3);letter-spacing:.2em;text-transform:uppercase}
+.kicker a.more{margin-left:auto;font-size:13px;color:var(--accent);position:relative;padding-right:16px}
+.kicker a.more::after{content:"→";position:absolute;right:0;top:50%;transform:translateY(-50%)}
+.kicker a.more:hover{color:var(--accent-2)}
+
+section{padding:56px 0}
+section:nth-of-type(even){background:var(--paper-2)}
+section:nth-of-type(even) .kicker{border-bottom-color:rgba(29,28,26,.18)}
+
+/* ===== 头条 ===== */
+.lede{display:grid;grid-template-columns:1.35fr 1fr;gap:26px}
+.lede-main{position:relative;background:#231f1c;color:#e9e4dc;min-height:420px;overflow:hidden;box-shadow:var(--shadow)}
+.lede-main .frame{position:absolute;inset:0;background:linear-gradient(135deg,#3a2b22 0%,#1f1c19 55%,#2b2018 100%)}
+.lede-main .frame::after{
+  content:"";position:absolute;inset:0;
+  background:
+    repeating-linear-gradient(0deg,transparent 0,transparent 5px,rgba(255,255,255,.018) 5px,rgba(255,255,255,.018) 6px),
+    radial-gradient(ellipse at 70% 40%,rgba(212,98,26,.32),transparent 60%);
+}
+.lede-main .badge{position:absolute;top:18px;left:18px;z-index:3;background:var(--accent);color:#fff;font-size:12px;letter-spacing:.2em;padding:5px 11px}
+.lede-main .body{position:relative;z-index:2;padding:130px 30px 30px;margin-top:auto}
+.lede-main h1{font-family:var(--serif);font-size:30px;line-height:1.4;font-weight:700;margin-bottom:14px;letter-spacing:.03em}
+.lede-main p{font-size:14.5px;color:#c6bfb4;line-height:1.9;margin-bottom:18px}
+.lede-main .byline{font-size:12px;color:#8f887d;border-top:1px solid rgba(233,228,220,.18);padding-top:12px;display:flex;gap:16px;flex-wrap:wrap}
+.lede-side{display:flex;flex-direction:column;gap:16px}
+.lede-side article{background:#fff;border:1px solid var(--line);padding:20px 22px;box-shadow:var(--shadow);transition:.3s}
+.lede-side article:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(29,28,26,.12)}
+.lede-side .tag{font-size:11px;letter-spacing:.2em;color:var(--accent);text-transform:uppercase}
+.lede-side h3{font-family:var(--serif);font-size:18px;line-height:1.5;margin:8px 0 10px;font-weight:700}
+.lede-side p{font-size:13.5px;color:var(--ink-2);line-height:1.8}
+.lede-side .meta{font-size:12px;color:var(--ink-3);margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);display:flex;gap:12px}
+
+/* ===== 通用文章卡 ===== */
+.grid{display:grid;gap:22px}
+.grid.cols-3{grid-template-columns:repeat(3,1fr)}
+.grid.cols-2{grid-template-columns:repeat(2,1fr)}
+.grid.cols-4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);transition:.3s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(29,28,26,.13)}
+.thumb{height:180px;position:relative;overflow:hidden;flex:none}
+.thumb::before{content:"";position:absolute;inset:0}
+.thumb .cat{position:absolute;top:12px;left:12px;background:var(--ink);color:#f0ece4;font-size:11px;letter-spacing:.16em;padding:4px 9px;z-index:2}
+.thumb .score{position:absolute;right:12px;bottom:12px;background:var(--accent);color:#fff;font-family:var(--serif);font-size:20px;font-weight:700;padding:6px 10px;line-height:1;z-index:2}
+.card-body{padding:20px 22px 22px;flex:1;display:flex;flex-direction:column}
+.card-body h3{font-family:var(--serif);font-size:19px;line-height:1.5;margin-bottom:10px;font-weight:700;flex:1}
+.card-body p{font-size:14px;color:var(--ink-2);line-height:1.8;margin-bottom:14px}
+.card-foot{font-size:12px;color:var(--ink-3);display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:11px}
+
+/* 缩略图配色变体 */
+.t1::before{background:linear-gradient(150deg,#2c3e50,#5d6d7e)}
+.t2::before{background:linear-gradient(150deg,#6c3483,#a569bd)}
+.t3::before{background:linear-gradient(150deg,#1e6091,#168aad)}
+.t4::before{background:linear-gradient(150deg,#283618,#606c38)}
+.t5::before{background:linear-gradient(150deg,#9c4221,#dd6b20)}
+.t6::before{background:linear-gradient(150deg,#4a235a,#7d3c98)}
+.t7::before{background:linear-gradient(150deg,#0f4c5c,#1a936f)}
+.t8::before{background:linear-gradient(150deg,#78281f,#cb4335)}
+.t9::before{background:linear-gradient(150deg,#1b2631,#34495e)}
+.t10::before{background:linear-gradient(150deg,#7d6608,#b7950b)}
+.t11::before{background:linear-gradient(150deg,#1a5276,#2980b9)}
+.t12::before{background:linear-gradient(150deg,#5b2c0e,#a04000)}
+
+/* ===== 放映表 ===== */
+.schedule{background:var(--ink);color:#e9e4dc}
+.schedule .kicker{border-bottom-color:rgba(233,228,220,.16)}
+.schedule .kicker b,.schedule .kicker i{color:#f7f3ec}
+.schedule .kicker a.more{color:var(--gold)}
+table.rep{width:100%;border-collapse:collapse;font-size:14px}
+table.rep th{text-align:left;font-size:12px;letter-spacing:.14em;color:#9a9287;font-weight:400;padding:13px 14px;border-bottom:1px solid rgba(233,228,220,.16)}
+table.rep td{padding:16px 14px;border-bottom:1px solid rgba(233,228,220,.09);vertical-align:top}
+table.rep tr:hover td{background:rgba(233,228,220,.04)}
+table.rep .film{font-family:var(--serif);font-size:16.5px;font-weight:700}
+table.rep .film small{display:block;font-family:var(--sans);font-size:12px;font-weight:400;color:#8f887d;margin-top:4px;letter-spacing:.05em}
+table.rep .pill{display:inline-block;padding:3px 9px;font-size:11px;letter-spacing:.1em;border:1px solid var(--gold);color:var(--gold)}
+table.rep .price{font-family:var(--serif);font-size:16px;color:#f0ece4}
+
+/* ===== 对话体 ===== */
+.interview{display:grid;grid-template-columns:1fr 1.6fr;gap:26px;align-items:start}
+.qa{background:#fff;border:1px solid var(--line);padding:26px;box-shadow:var(--shadow)}
+.qa .open{font-family:var(--serif);font-size:17px;line-height:1.9;margin-bottom:18px;padding-left:16px;border-left:3px solid var(--accent)}
+.qa dl{font-size:14.5px;line-height:2}
+.qa dt{font-weight:700;color:var(--accent);margin-top:16px}
+.qa dt:first-child{margin-top:0}
+.qa dd{color:var(--ink-2)}
+.filmstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.filmstrip div{height:120px;position:relative;overflow:hidden}
+.filmstrip div::after{content:"";position:absolute;inset:0;background:rgba(29,28,26,.28)}
+.filmstrip span{position:absolute;left:10px;right:10px;bottom:10px;z-index:2;color:#fff;font-family:var(--serif);font-size:13px;line-height:1.4}
+
+/* ===== 关于 ===== */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about .prose p{margin-bottom:16px;color:var(--ink-2);font-size:15.5px}
+.about .prose p:first-child{font-family:var(--serif);font-size:19px;color:var(--ink);line-height:1.8}
+.about ul{list-style:none;margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}
+.about li{font-size:14px;color:var(--ink-2);padding-left:18px;position:relative}
+.about li::before{content:"";position:absolute;left:0;top:10px;width:7px;height:7px;background:var(--accent);transform:rotate(45deg)}
+.editorial{border:1px solid var(--line);background:#fff;padding:26px;box-shadow:var(--shadow)}
+.editorial h4{font-family:var(--serif);font-size:18px;margin-bottom:6px}
+.editorial .sub{font-size:12px;color:var(--ink-3);letter-spacing:.16em;margin-bottom:18px}
+.editorial label{display:block;font-size:13px;color:var(--ink-2);margin:14px 0 6px}
+.editorial input,.editorial textarea{width:100%;font-family:inherit;font-size:14px;padding:11px 13px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:2px;transition:.2s}
+.editorial input:focus,.editorial textarea:focus{outline:none;border-color:var(--gold);background:#fff}
+.editorial textarea{min-height:110px;resize:vertical}
+.editorial button{margin-top:18px;background:var(--ink);color:#f0ece4;padding:12px 26px;font-size:14px;letter-spacing:.14em;transition:.25s}
+.editorial button:hover{background:var(--accent)}
+
+/* ===== 页脚 ===== */
+footer{background:#161513;color:#9a9287;padding:46px 0 0}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;padding-bottom:34px}
+.foot-grid h5{font-family:var(--serif);font-size:15px;color:#e9e4dc;margin-bottom:14px;letter-spacing:.08em}
+.foot-grid p,.foot-grid a{font-size:13.5px;line-height:1.9;color:#8f887d}
+.foot-grid a{display:block}
+.foot-grid a:hover{color:var(--gold)}
+.foot-bottom{border-top:1px solid rgba(233,228,220,.1);padding:20px 0;font-size:12.5px;color:#6f685f;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.foot-bottom a{color:#8f887d}
+
+/* ===== 回到顶部 ===== */
+#toTop{position:fixed;right:20px;bottom:-60px;width:46px;height:46px;background:var(--ink);color:#f0ece4;z-index:60;display:grid;place-items:center;font-size:18px;box-shadow:var(--shadow);transition:.35s;border-radius:2px}
+#toTop.show{bottom:24px}
+#toTop:hover{background:var(--accent)}
+
+/* ===== 响应式 ===== */
+@media (max-width:960px){
+  .lede,.about,.interview{grid-template-columns:1fr}
+  .grid.cols-4,.grid.cols-3{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .lede-main{min-height:360px}
+  .lede-main .body{padding-top:100px}
+  .lede-main h1{font-size:24px}
+}
+@media (max-width:640px){
+  body{font-size:15px}
+  section{padding:40px 0}
+  .container{padding:0 16px}
+  .masthead-meta{display:none}
+  .brandmark strong{font-size:18px}
+  .kicker b{font-size:20px}
+  .kicker a.more{display:none}
+  .grid.cols-4,.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr;gap:22px;padding-bottom:24px}
+  .about ul{grid-template-columns:1fr}
+  .foot-bottom{flex-direction:column;text-align:center}
+  .lede-main h1{font-size:21px}
+  .lede-main .body{padding:80px 20px 22px}
+  .card-body h3{font-size:17px}
+  table.rep{font-size:13px}
+  table.rep th:nth-child(3),table.rep td:nth-child(3){display:none}
+  .editorial{padding:20px}
+  .qa{padding:20px}
+  .interview{gap:16px}
+}
+@media print{
+  .masthead,.nav-wrap,#toTop,footer{display:none}
+  body{background:#fff;color:#000}
+  section{padding:20px 0;background:#fff!important}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="masthead">
+  <div class="container">
+    <div class="masthead-top">
+      <div class="brandmark">
+        <strong>六十电影志</strong>
+        <em>60 Dianying Wang</em>
+      </div>
+      <div class="masthead-meta">
+        <span id="today"></span>
+        <span>Vol. 07 · No. 42</span>
+        <span>影迷的内容杂志</span>
+      </div>
+      <nav class="masthead-actions">
+        <a class="btn-ghost" href="#search">搜索</a>
+        <a class="btn-ghost" href="#sub">订阅</a>
+      </nav>
+    </div>
+    <div class="nav-wrap">
+      <div class="container">
+        <nav class="nav" id="nav">
+          <a href="#home" class="is-active">头版</a>
+          <a href="#latest">最新影评</a>
+          <a href="#classic">经典重映</a>
+          <a href="#behind">幕后专栏</a>
+          <a href="#about">关于我们</a>
+          <a href="#contact">读者来信</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- 头版头条 -->
+  <section id="home">
+    <div class="container">
+      <div class="kicker">
+        <b>头版头条</b>
+        <i>Cover Story</i>
+        <a class="more" href="#latest">阅读全部评论</a>
+      </div>
+      <div class="lede">
+        <article class="lede-main">
+          <div class="frame"></div>
+          <span class="badge">本期特稿</span>
+          <div class="body">
+            <h1>当镜头重新学会等待：从今秋三部华语新片，看创作者如何夺回叙事的呼吸感</h1>
+            <p>在短视频节奏全面入侵长片的今天，仍有导演愿意让一场戏停在水面、让演员沉默三十秒。我们选取三部今秋上映的华语作品，从场面调度、声效设计与表演节奏三个维度，讨论"慢"为何重新成为最昂贵的能力。</p>
+            <div class="byline">
+              <span>记者：林知行</span>
+              <span>编辑：六十电影志编辑部</span>
+              <span>约 3,200 字</span>
+              <span>阅读约 12 分钟</span>
+            </div>
+          </div>
+        </article>
+        <div class="lede-side">
+          <article>
+            <span class="tag">即时口碑</span>
+            <h3>《秋日来信》首周口碑观察：克制叙事下的家庭情感共振</h3>
+            <p>影片以一封迟到二十年的信件为线索，没有一处情绪是外放的，却让首场点映的观众在片尾集体沉默了将近一分钟。</p>
+            <div class="meta"><span>9 分钟阅读</span><span>2 小时前</span></div>
+          </article>
+          <article>
+            <span class="tag">导演手记</span>
+            <h3>专访陈一鸣：我不在意观众是否"看懂"，只在意他们是否"感觉到"</h3>
+            <p>从纪录片起步、如今完成剧情长片第二作的导演，谈他对"真实感"近乎苛刻的现场要求，以及为什么所有配角都由素人出演。</p>
+            <div class="meta"><span>6 分钟阅读</span><span>昨日</span></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目一：最新影评 -->
+  <section id="latest">
+    <div class="container">
+      <div class="kicker">
+        <b>最新影评</b>
+        <i>Reviews &amp; Notes</i>
+        <a class="more" href="#">查看完整目录</a>
+      </div>
+      <div class="grid cols-3">
+        <article class="card">
+          <div class="thumb t1"><span class="cat">院线新片</span><span class="score">7.8</span></div>
+          <div class="card-body">
+            <h3>《潮汐之下》是一场关于失去的听觉实验，也是一次险胜</h3>
+            <p>声音设计抢走了半部电影的功劳。前半段的留白与后半段的铺陈，让这部海洋题材作品在情绪处理上明显优于同类型创作。</p>
+            <div class="card-foot"><span>影评人 · 沈清和</span><span>10-12</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t2"><span class="cat">流媒体</span><span class="score">8.1</span></div>
+          <div class="card-body">
+            <h3>六集讲完一段二十年友谊，这部限定剧的群像写作值得抄作业</h3>
+            <p>六位主创在六个时段里反复错位，剧本拒绝任何一次"解释"，却让观众自行拼出了完整的人物弧光。</p>
+            <div class="card-foot"><span>剧集观察 · 周牧野</span><span>10-11</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t3"><span class="cat">新人新作</span><span class="score">7.5</span></div>
+          <div class="card-body">
+            <h3>《巷口理发店》的粗糙是刻意的：处女作如何把空间拍成主角</h3>
+            <p>全片百分之九十的戏发生在一间不到二十平米的理发店里，导演用固定机位和真实客流完成了一次惊人的成本控制。</p>
+            <div class="card-foot"><span>新人新作 · 编辑部</span><span>10-10</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t4"><span class="cat">国际视野</span><span class="score">8.4</span></div>
+          <div class="card-body">
+            <h3>来自东南亚的雨季三部曲，正在改写亚洲电影的语言边界</h3>
+            <p>潮湿、热带、非线性的时间感——这批年轻导演共享的不是题材，而是一种全新的感官坐标系。</p>
+            <div class="card-foot"><span>国际观察 · 许南乔</span><span>10-09</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t5"><span class="cat">纪录片</span><span class="score">7.9</span></div>
+          <div class="card-body">
+            <h3>他拍了十年，只为回答父亲那句"我回来了"——评《归程》</h3>
+            <p>一部以家庭录像为底稿的私人纪录片，其伦理风险与情感回报同样巨大，导演在映后坦诚谈到了取舍。</p>
+            <div class="card-foot"><span>纪录片 · 江远</span><span>10-08</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t6"><span class="cat">短片</span><span class="score">7.6</span></div>
+          <div class="card-body">
+            <h3>十四分钟，没有一句台词：今年最值得关注的短片都做对了什么</h3>
+            <p>从电影节短片单元挑出五部，拆解它们在有限时长里完成人物建立的共通方法，以及结尾处理上的几种典型失误。</p>
+            <div class="card-foot"><span>短片单元 · 编辑部</span><span>10-07</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目二：经典重映 -->
+  <section id="classic">
+    <div class="container">
+      <div class="kicker">
+        <b>经典重映</b>
+        <i>Classics Revisited</i>
+        <a class="more" href="#">查看排片表</a>
+      </div>
+      <div class="grid cols-2">
+        <article class="card">
+          <div class="thumb t7"><span class="cat">4K 修复</span><span class="score">9.2</span></div>
+          <div class="card-body">
+            <h3>三十年后再看《站台》：我们当年错过的，是时代本身</h3>
+            <p>这部被反复重看的华语名作，在最新 4K 修复中显现出此前从未被注意到的细节：墙上一张褪色的海报、背景里的一段方言广播，都成了理解时代的密码。</p>
+            <div class="card-foot"><span>修复观察 · 何青梧</span><span>10-13 起重映</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t8"><span class="cat">导演剪辑版</span><span class="score">8.7</span></div>
+          <div class="card-body">
+            <h3>那十八分钟改变了什么：重剪版让一部被低估的作品重获新生</h3>
+            <p>当年公映版因片长被砍去十八分钟而饱受争议，如今导演剪辑版首次在国内放映，我们逐场比对了被删段落的功能。</p>
+            <div class="card-foot"><span>版本比对 · 沈清和</span><span>10-18 起重映</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="schedule" style="margin-top:34px;padding:32px;box-shadow:var(--shadow)">
+        <div class="kicker">
+          <b>十月放映日历</b>
+          <i>Screening Schedule</i>
+          <a class="more" href="#">完整排片</a>
+        </div>
+        <table class="rep">
+          <thead>
+            <tr><th style="width:16%">日期</th><th style="width:30%">影片</th><th>版本</th><th style="width:22%">放映场地</th><th style="width:12%">票价</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10月15日 19:30</td>
+              <td><span class="film">《站台》<small>Platform · 2000</small></span></td>
+              <td><span class="pill">4K 修复</span></td>
+              <td>城市艺术影院 · 一号厅</td>
+              <td class="price">¥40</td>
+            </tr>
+            <tr>
+              <td>10月18日 20:00</td>
+              <td><span class="film">《蓝风筝》<small>The Blue Kite · 1993</small></span></td>
+              <td><span class="pill">2K 修复</span></td>
+              <td>大学路电影资料馆</td>
+              <td class="price">¥30</td>
+            </tr>
+            <tr>
+              <td>10月22日 19:00</td>
+              <td><span class="film">《霸王别姬》<small>Farewell My Concubine · 1993</small></span></td>
+              <td><span class="pill">4K 重制</span></td>
+              <td>滨江影城 · 巨幕厅</td>
+              <td class="price">¥60</td>
+            </tr>
+            <tr>
+              <td>10月26日 14:00</td>
+              <td><span class="film">《一一》<small>Yi Yi · 2000</small></span></td>
+              <td><span class="pill">修复回顾</span></td>
+              <td>城市艺术影院 · 二号厅</td>
+              <td class="price">¥40</td>
+            </tr>
+            <tr>
+              <td>10月29日 19:30</td>
+              <td><span class="film">《阳光灿烂的日子》<small>In the Heat of the Sun · 1994</small></span></td>
+              <td><span class="pill">导剪版</span></td>
+              <td>大学路电影资料馆</td>
+              <td class="price">¥30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目三：幕后专栏 -->
+  <section id="behind">
+    <div class="container">
+      <div class="kicker">
+        <b>幕后专栏</b>
+        <i>Behind the Lens</i>
+        <a class="more" href="#">全部访谈</a>
+      </div>
+      <div class="interview">
+        <div class="filmstrip">
+          <div class="t9"><span>录音师 · 杜笃之</span></div>
+          <div class="t10"><span>美术指导 · 种田阳平</span></div>
+          <div class="t11"><span>剪辑师 · 张叔平</span></div>
+          <div class="t5"><span>制片人 · 徐立功</span></div>
+          <div class="t12"><span>摄影师 · 李屏宾</span></div>
+          <div class="t6"><span>编剧 · 游乃海</span></div>
+        </div>
+        <div class="qa">
+          <div class="kicker" style="margin-bottom:16px">
+            <b style="font-size:19px">对谈｜声音指导 杜笃之</b>
+            <i>In Conversation</i>
+          </div>
+          <p class="open">"观众从来不会记得他们听到了什么，但他们一定会感觉到那个空间是不是真的。声音就是一部电影的湿度。"</p>
+          <dl>
+            <dt>六十电影志：一部戏的声音工作通常从什么时候介入？</dt>
+            <dd>越早越好。我习惯在剧本阶段就参与，因为声音预算、拍摄机位和收音方案，全都在剧本里。如果等拍完才找我，很多东西已经回不来了。</dd>
+            <dt>六十电影志：在街头实景拍摄时，最大的妥协是什么？</dt>
+            <dd>是"选择"。你不可能录到完美的现场声，所以要想清楚你愿意放弃什么。我会同时挂六七支麦克风，后期再决定用哪一支的呼吸。</dd>
+            <dt>六十电影志：对新入行的录音助理有什么建议？</dt>
+            <dd>先学会安静。听清楚环境里有什么，比急着装设备重要得多。声音工作到最后拼的不是技术，是对生活的敏感度。</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="grid cols-3" style="margin-top:34px">
+        <article class="card">
+          <div class="thumb t9"><span class="cat">摄影</span><span class="score">技法</span></div>
+          <div class="card-body">
+            <h3>自然光不是"不布光"：一位摄影指导的现场取舍笔记</h3>
+            <p>从窗帘的材质到反光板的颜色，一位摄影指导在三个实景拍摄日里留下的具体记录。</p>
+            <div class="card-foot"><span>幕后技法 · 摄影组</span><span>10-06</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t11"><span class="cat">剧本</span><span class="score">拆解</span></div>
+          <div class="card-body">
+            <h3>三幕之外的结构：为什么越来越多的作者放弃"转折点"</h3>
+            <p>通过对比五部近年获奖作品的场次表，看非典型叙事结构如何在观众那里成立。</p>
+            <div class="card-foot"><span>编剧课 · 许南乔</span><span>10-04</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t12"><span class="cat">制片</span><span class="score">实务</span></div>
+          <div class="card-body">
+            <h3>独立长片如何用三百万元完成拍摄：一份可复用的预算表</h3>
+            <p>从器材租赁到保险与餐饮，一位独立制片人公开了她最近项目的真实预算构成。</p>
+            <div class="card-foot"><span>制片实务 · 江远</span><span>10-02</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目四：读者专栏与影史小块 -->
+  <section id="columns">
+    <div class="container">
+      <div class="kicker">
+        <b>读者专栏 · 影史速写</b>
+        <i>Readers &amp; History</i>
+        <a class="more" href="#">征稿说明</a>
+      </div>
+      <div class="grid cols-4">
+        <article class="card">
+          <div class="thumb t2"><span class="cat">影史速写</span></div>
+          <div class="card-body">
+            <h3>九十年代的录像厅，是中国观众真正的电影学院</h3>
+            <p>一位读者的私人回忆，关于那些没有排片表的下午。</p>
+            <div class="card-foot"><span>读者来稿</span><span>10-11</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t7"><span class="cat">类型研究</span></div>
+          <div class="card-body">
+            <h3>国产悬疑片为什么越来越依赖"反转"</h3>
+            <p>当反转成了类型片的唯一卖点，类型本身就开始失重。</p>
+            <div class="card-foot"><span>类型研究</span><span>10-09</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t4"><span class="cat">放映文化</span></div>
+          <div class="card-body">
+            <h3>城市里那些活到今天的独立影院，靠什么撑下来</h3>
+            <p>六家仍在营业的私人影院，六种完全不同的生存方式。</p>
+            <div class="card-foot"><span>放映文化</span><span>10-07</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="thumb t6"><span class="cat">读者来稿</span></div>
+          <div class="card-body">
+            <h3>我带着父亲看了他年轻时的那部电影</h3>
+            <p>一次再普通不过的陪看，变成了一场跨过三十年的对话。</p>
+            <div class="card-foot"><span>读者来稿</span><span>10-05</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 栏目五：关于与订阅 -->
+  <section id="about">
+    <div class="container">
+      <div class="kicker">
+        <b>关于六十电影志</b>
+        <i>About &amp; Subscribe</i>
+      </div>
+      <div class="about">
+        <div class="prose">
+          <p>六十电影志（60电影网）是一份由影迷写给影迷的深度内容杂志，每日更新院线与流媒体新片口碑、经典修复影片赏析、导演与编剧幕后访谈、电影节动态及实用观影指南。</p>
+          <p>我们关注的不是"值不值得看"，而是"它为什么这样拍"。每一篇影评都试图回答一个具体的技术问题，每一次访谈都指向一次可被理解的选择。</p>
+          <p>访问六十电影志，你可以通过以下入口进入我们的内容：<a href="https://60dianyingwang-app.github.io/" style="color:var(--accent);border-bottom:1px solid var(--accent)">https://60dianyingwang-app.github.io/</a>，也可以直接输入网址 <a href="https://60dianyingwang-app.github.io/" style="color:var(--accent);border-bottom:1px solid var(--accent)">60dianyingwang-app.github.io</a> 访问。本站网址为 <a href="https://60dianyingwang-app.github.io/" style="color:var(--accent);border-bottom:1px solid var(--accent)">https://60dianyingwang-app.github.io/</a>，主站域名即 60dianyingwang-app。</p>
+          <ul>
+            <li>独立立场，不收片方稿费</li>
+            <li>评分与评论完全分离</li>
+            <li>每周更新一次深度长稿</li>
+            <li>每月发布放映日历</li>
+            <li>接受读者来稿与选题建议</li>
+          </ul>
+        </div>
+        <div class="editorial" id="sub">
+          <h4>订阅周刊</h4>
+          <div class="sub">WEEKLY NEWSLETTER</div>
+          <p style="font-size:14px;color:var(--ink-2);margin-bottom:4px">每周日早八点，把本周最好的六篇长文送到你的收件箱。不发送广告，随时可以退订。</p>
+          <form id="subForm" novalidate>
+            <label for="email">电子邮箱</label>
+            <input type="email" id="email" name="email" placeholder="reader@example.com" autocomplete="email">
+            <label for="interest">感兴趣的方向（可多选）</label>
+            <input type="text" id="interest" name="interest" placeholder="如：华语新片、修复重映、幕后访谈">
+            <button type="submit">订阅周刊</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 读者来信 -->
+  <section id="contact" style="padding-top:0">
+    <div class="container">
+      <div class="kicker">
+        <b>读者来信</b>
+        <i>Letters</i>
+      </div>
+      <div class="grid cols-2">
+        <div class="editorial">
+          <h4>投稿或选题建议</h4>
+          <div class="sub">WRITE TO US</div>
+          <p style="font-size:14px;color:var(--ink-2);margin-bottom:4px">读者来稿、纠错、选题建议、放映信息分享，都可以通过下面的表单发送给我们。来信会在三个工作日内得到回复。</p>
+          <form id="letterForm" novalidate>
+            <label for="name">称呼</label>
+            <input type="text" id="name" name="name" placeholder="如何称呼你">
+            <label for="email2">联系邮箱</label>
+            <input type="email" id="email2" name="email2" placeholder="your@email.com">
+            <label for="msg">想说的话</label>
+            <textarea id="msg" name="msg" placeholder="选题、来稿、放映信息均可"></textarea>
+            <button type="submit">寄出信件</button>
+          </form>
+        </div>
+        <div>
+          <article class="card" style="margin-bottom:22px">
+            <div class="card-body">
+              <h3>关于上一期《秋日来信》的影评，我有不同的看法</h3>
+              <p>"我认为把'克制'当作唯一的正面评价，反而遮蔽了这部片在女性角色塑造上的真正问题……" —— 读者 K 的来信已被选入下期回应栏。</p>
+              <div class="card-foot"><span>已收录</span><span>10-10</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>投稿｜我记录了一家经营了二十三年的录像店关门那天</h3>
+              <p>三千字图文稿，配现场录音三段。作者同意在署名的前提下授权本站首发。</p>
+              <div class="card-foot"><span>审稿中</span><span>10-08</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <h5>六十电影志 · 60电影网</h5>
+        <p>一份由影迷写给影迷的深度电影内容杂志。关注华语与亚洲电影，提供独立立场的评论、资讯、幕后访谈与观影指南。</p>
+        <p style="margin-top:12px">本站网址：<a href="https://60dianyingwang-app.github.io/">https://60dianyingwang-app.github.io/</a></p>
+        <p>主站域名：60dianyingwang-app</p>
+      </div>
+      <div>
+        <h5>内容栏目</h5>
+        <a href="#home">头版头条</a>
+        <a href="#latest">最新影评</a>
+        <a href="#classic">经典重映</a>
+        <a href="#behind">幕后专栏</a>
+        <a href="#columns">读者专栏</a>
+      </div>
+      <div>
+        <h5>快捷入口</h5>
+        <a href="#about">关于我们</a>
+        <a href="#sub">订阅周刊</a>
+        <a href="#contact">读者来信</a>
+        <a href="#search">内容搜索</a>
+        <a href="#">投稿须知</a>
+      </div>
+      <div>
+        <h5>联系与合作</h5>
+        <a href="mailto:#">投稿邮箱：见来信页</a>
+        <a href="#contact">选题建议</a>
+        <a href="#contact">放映信息分享</a>
+        <a href="#">友情链接</a>
+        <a href="#">版权声明</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 六十电影志 60电影网. 本站由影迷编辑，独立运营，内容仅代表作者观点。</span>
+      <span>
+        <a href="https://60dianyingwang-app.github.io/">首页</a> ·
+        <a href="#latest">影评</a> ·
+        <a href="#classic">重映</a> ·
+        <a href="#behind">幕后</a> ·
+        <a href="#about">关于</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<div id="toTop" title="回到顶部">↑</div>
+
+<script>
+(function(){
+  var today=document.getElementById('today');
+  if(today){
+    var d=new Date(), w=['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+    today.textContent=d.getFullYear()+'年'+(d.getMonth()+1)+'月'+d.getDate()+'日 '+w[d.getDay()]+' · 多云转晴';
+  }
+  var navLinks=document.querySelectorAll('#nav a');
+  navLinks.forEach(function(a){
+    a.addEventListener('click',function(){
+      navLinks.forEach(function(x){x.classList.remove('is-active')});
+      a.classList.add('is-active');
+    });
+  });
+  var toTop=document.getElementById('toTop');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>420){toTop.classList.add('show')}else{toTop.classList.remove('show')}
+  },{passive:true});
+  toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+  function tip(form,msg){
+    var old=form.querySelector('.form-tip');
+    if(old){old.remove()}
+    var p=document.createElement('p');
+    p.className='form-tip';
+    p.textContent=msg;
+    p.style.cssText='font-size:13px;color:#b3261e;margin-top:12px';
+    form.appendChild(p);
+  }
+  var subForm=document.getElementById('subForm');
+  subForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    var v=document.getElementById('email').value.trim();
+    if(!v||v.indexOf('@')<1){tip(subForm,'请填写一个有效的电子邮箱，我们再给你发确认信。');return}
+    tip(subForm,'已收到你的订阅请求，请查收确认邮件以完成订阅。');
+    subForm.reset();
+  });
+  var letterForm=document.getElementById('letterForm');
+  letterForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    var n=document.getElementById('name').value.trim(),m=document.getElementById('msg').value.trim();
+    if(!n||!m){tip(letterForm,'请留下称呼和你想说的话，我们会认真读完。');return}
+    tip(letterForm,'来信已送达，感谢你的信任，我们会在三个工作日内回复。');
+    letterForm.reset();
+  });
+})();
+</script>
+</body>
+</html>
